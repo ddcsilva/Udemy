@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula03Comentarios", "Aula03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula04Variaveis", "Aula04Variaveis\Aula04Variaveis.csproj", "{1C9AD5C5-EEC6-481B-9382-71CAB36B612E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula05OperadoresAritmeticos", "Aula05OperadoresAritmeticos\Aula05OperadoresAritmeticos.csproj", "{35939DB2-552E-4ABF-9B0E-47E25E40ECB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1C9AD5C5-EEC6-481B-9382-71CAB36B612E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C9AD5C5-EEC6-481B-9382-71CAB36B612E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C9AD5C5-EEC6-481B-9382-71CAB36B612E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35939DB2-552E-4ABF-9B0E-47E25E40ECB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35939DB2-552E-4ABF-9B0E-47E25E40ECB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35939DB2-552E-4ABF-9B0E-47E25E40ECB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35939DB2-552E-4ABF-9B0E-47E25E40ECB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
