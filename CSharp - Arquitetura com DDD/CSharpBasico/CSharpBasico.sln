@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula10For", "Aula10For\Aula
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula11While", "Aula11While\Aula11While.csproj", "{C147645D-4A29-4D5F-B1F3-31B66F0FB0A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula12SwitchCase", "Aula12SwitchCase\Aula12SwitchCase.csproj", "{7DF2C161-A8D5-4C89-A2FB-8C3778E7F237}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{C147645D-4A29-4D5F-B1F3-31B66F0FB0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C147645D-4A29-4D5F-B1F3-31B66F0FB0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C147645D-4A29-4D5F-B1F3-31B66F0FB0A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF2C161-A8D5-4C89-A2FB-8C3778E7F237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF2C161-A8D5-4C89-A2FB-8C3778E7F237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF2C161-A8D5-4C89-A2FB-8C3778E7F237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF2C161-A8D5-4C89-A2FB-8C3778E7F237}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
