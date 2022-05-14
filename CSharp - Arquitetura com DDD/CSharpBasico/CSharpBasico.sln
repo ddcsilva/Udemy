@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula05OperadoresAritmeticos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula06IncrementoDecremento", "Aula06IncrementoDecremento\Aula06IncrementoDecremento.csproj", "{7CCF09D1-C199-4EED-A9DA-640CAC8C686B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula07OperadoresLogicos", "Aula07OperadoresLogicos\Aula07OperadoresLogicos.csproj", "{2AA1D8F1-28CD-4756-8B9F-7C9CB382736C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{7CCF09D1-C199-4EED-A9DA-640CAC8C686B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CCF09D1-C199-4EED-A9DA-640CAC8C686B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CCF09D1-C199-4EED-A9DA-640CAC8C686B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA1D8F1-28CD-4756-8B9F-7C9CB382736C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA1D8F1-28CD-4756-8B9F-7C9CB382736C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA1D8F1-28CD-4756-8B9F-7C9CB382736C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA1D8F1-28CD-4756-8B9F-7C9CB382736C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
