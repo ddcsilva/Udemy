@@ -1,4 +1,5 @@
-﻿using ApiArquiteturaDDD.Domain.Entities;
+﻿using ApiArquiteturaDDD.Data.Mapping;
+using ApiArquiteturaDDD.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApiArquiteturaDDD.Data.Context
@@ -12,6 +13,7 @@ namespace ApiArquiteturaDDD.Data.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<UserEntity>(new UserMap().Configure);
         }
     }
 }
