@@ -1,16 +1,11 @@
 using ApiArquiteturaDDD.CrossCutting.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ApiArquiteturaDDD.Application
 {
@@ -30,6 +25,27 @@ namespace ApiArquiteturaDDD.Application
             ConfigureRepository.ConfigureDependenciesService(services);
 
             services.AddControllers();
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Curso de API com Arquitetura DDD",
+                    Description = "Curso ministrado por Marcos Fabricio Rosa",
+                    TermsOfService = new Uri("https://www.udemy.com/course/aspnet-core-22-c-api-com-arquitetura-ddd-na-pratica/"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Danilo de Carvalho Silva",
+                        Email = "danilo.silva@msn.com"
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "Termo de Licença de Uso",
+                        Url = new Uri("http://www.mfrinfo.com.br")
+                    }
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,6 +55,13 @@ namespace ApiArquiteturaDDD.Application
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Curso de API com Arquitetura DDD");
+                c.RoutePrefix = string.Empty;
+            });
 
             app.UseRouting();
 
