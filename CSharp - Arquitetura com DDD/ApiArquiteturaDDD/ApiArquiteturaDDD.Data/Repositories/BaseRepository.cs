@@ -63,6 +63,11 @@ namespace ApiArquiteturaDDD.Data.Repositories
             return entity;
         }
 
+        public async Task<bool> ExistAsync(Guid id)
+        {
+            return await _dataset.AnyAsync(t => t.Id.Equals(id));
+        }
+
         public Task<IEnumerable<T>> ListAsync()
         {
             throw new NotImplementedException();
