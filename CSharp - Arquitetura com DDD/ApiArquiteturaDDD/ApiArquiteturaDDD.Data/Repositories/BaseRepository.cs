@@ -56,9 +56,29 @@ namespace ApiArquiteturaDDD.Data.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<T> UpdateAsync(T entity)
+        public async Task<T> UpdateAsync(T entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var result = await _dataset.SingleOrDefaultAsync(t => t.Id.Equals(entity.Id));
+
+                if (result == null)
+                {
+                    return null;
+                }
+
+                entity.UpdateAt = DateTime.UtcNow;
+                entity.CreateAt = result.CreateAt;
+
+                _context.Entry(result).CurrentValues.SetValues(entity);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return entity;
         }
     }
 }
