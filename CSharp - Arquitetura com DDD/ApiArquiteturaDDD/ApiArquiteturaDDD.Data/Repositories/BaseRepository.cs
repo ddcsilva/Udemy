@@ -68,14 +68,28 @@ namespace ApiArquiteturaDDD.Data.Repositories
             return await _dataset.AnyAsync(t => t.Id.Equals(id));
         }
 
-        public Task<IEnumerable<T>> ListAsync()
+        public async Task<IEnumerable<T>> ListAsync()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return await _dataset.ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
-        public Task<T> SelectAsync(Guid id)
+        public async Task<T> SelectAsync(Guid id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return await _dataset.SingleOrDefaultAsync(t => t.Id.Equals(id));
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public async Task<T> UpdateAsync(T entity)
