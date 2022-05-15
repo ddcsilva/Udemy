@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ApiArquiteturaDDD.CrossCutting\ApiArquiteturaDDD.CrossCutting.csproj" />
     <ProjectReference Include="..\ApiArquiteturaDDD.Data\ApiArquiteturaDDD.Data.csproj" />
     <ProjectReference Include="..\ApiArquiteturaDDD.Domain\ApiArquiteturaDDD.Domain.csproj" />
   </ItemGroup>

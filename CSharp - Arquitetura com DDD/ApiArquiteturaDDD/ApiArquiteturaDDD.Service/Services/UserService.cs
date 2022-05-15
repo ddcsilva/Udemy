@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ApiArquiteturaDDD.Service.Services
 {
-    internal class UserService : IUserService
+    public class UserService : IUserService
     {
         private IRepository<UserEntity> _repository;
 
