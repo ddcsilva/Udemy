@@ -5,7 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\ApiArquiteturaDDD.CrossCutting\ApiArquiteturaDDD.CrossCutting.csproj" />
+    <ProjectReference Include="..\ApiArquiteturaDDD.Domain\ApiArquiteturaDDD.Domain.csproj" />
+    <ProjectReference Include="..\ApiArquiteturaDDD.Service\ApiArquiteturaDDD.Service.csproj" />
   </ItemGroup>
 
 
