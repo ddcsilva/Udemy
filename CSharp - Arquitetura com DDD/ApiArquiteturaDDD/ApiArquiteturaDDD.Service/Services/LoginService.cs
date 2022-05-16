@@ -1,4 +1,4 @@
-﻿using ApiArquiteturaDDD.Domain.Entities;
+﻿using ApiArquiteturaDDD.Domain.Dtos;
 using ApiArquiteturaDDD.Domain.Interfaces;
 using ApiArquiteturaDDD.Domain.Interfaces.Services.User;
 using System.Threading.Tasks;
@@ -13,7 +13,7 @@ namespace ApiArquiteturaDDD.Service.Services
             _repository = repository;
         }
 
-        public async Task<object> FindByLogin(UserEntity user)
+        public async Task<object> FindByLogin(LoginDto user)
         {
             if (user != null && !string.IsNullOrWhiteSpace(user.Email))
             {
