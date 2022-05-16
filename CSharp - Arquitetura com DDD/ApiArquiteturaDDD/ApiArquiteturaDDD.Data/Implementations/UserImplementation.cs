@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ApiArquiteturaDDD.Data.Implementations
 {
-    internal class UserImplementation : BaseRepository<UserEntity>, IUserRepository
+    public class UserImplementation : BaseRepository<UserEntity>, IUserRepository
     {
         private DbSet<UserEntity> _dataset;
 
