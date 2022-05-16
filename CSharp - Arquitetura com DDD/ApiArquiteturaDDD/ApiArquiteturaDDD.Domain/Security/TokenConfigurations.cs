@@ -1,6 +1,6 @@
 ﻿namespace ApiArquiteturaDDD.Domain.Security
 {
-    public class TokenConfiguration
+    public class TokenConfigurations
     {
         public string Audience { get; set; }
         public string Issuer { get; set; }
