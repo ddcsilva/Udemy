@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BsuZZBpMbx3JSgAoh4YE7ll7sGegFOEX6bOhYhJDkUJ+vd6zUG3SlWgf4s7rBERKFMmbnSyXQ/Z8C9J7GEBaqw==",
+  "dgSpecHash": "IjtJJvlX6KwRbm4VgVTJ++eGOpfaAL1sWKOMNwSMwIFKL79BOHVZvdILbzdH+hxSmaFt+X8RcAGYSa4Wzgd9ig==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\Udemy\\CSharp - Gerenciador de Condomínios\\GerenciadorCondominios\\GerenciadorCondominios\\GerenciadorCondominios.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\danil\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.25\\microsoft.aspnetcore.cryptography.internal.3.1.25.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.25\\microsoft.aspnetcore.cryptography.keyderivation.3.1.25.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -20,6 +22,8 @@
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.25\\microsoft.extensions.configuration.binder.3.1.25.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.25\\microsoft.extensions.dependencyinjection.3.1.25.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.25\\microsoft.extensions.dependencyinjection.abstractions.3.1.25.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\microsoft.extensions.identity.core\\3.1.25\\microsoft.extensions.identity.core.3.1.25.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\microsoft.extensions.identity.stores\\3.1.25\\microsoft.extensions.identity.stores.3.1.25.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.extensions.logging\\3.1.25\\microsoft.extensions.logging.3.1.25.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.25\\microsoft.extensions.logging.abstractions.3.1.25.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.extensions.options\\3.1.25\\microsoft.extensions.options.3.1.25.nupkg.sha512",
