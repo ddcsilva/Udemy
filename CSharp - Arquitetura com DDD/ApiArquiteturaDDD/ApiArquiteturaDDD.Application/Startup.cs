@@ -1,5 +1,7 @@
 ﻿using ApiArquiteturaDDD.CrossCutting.DependencyInjection;
+using ApiArquiteturaDDD.CrossCutting.Mappings;
 using ApiArquiteturaDDD.Domain.Security;
+using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
@@ -28,6 +30,16 @@ namespace ApiArquiteturaDDD.Application
         {
             ConfigureService.ConfigureDependenciesService(services);
             ConfigureRepository.ConfigureDependenciesService(services);
+
+            var config = new AutoMapper.MapperConfiguration(c =>
+            {
+                c.AddProfile(new DtoToModelProfile());
+                c.AddProfile(new EntityToDtoProfile());
+                c.AddProfile(new ModelToEntityProfile());
+            });
+
+            IMapper mapper = config.CreateMapper();
+            services.AddSingleton(mapper);
 
             var signingConfigurations = new SigningConfigurations();
             services.AddSingleton(signingConfigurations);
