@@ -1,4 +1,7 @@
+using GerenciadorCondominios.BLL.Models;
 using GerenciadorCondominios.DAL;
+using GerenciadorCondominios.DAL.Interfaces;
+using GerenciadorCondominios.DAL.Repositorios;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,6 +29,12 @@ namespace GerenciadorCondominios
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<Contexto>(opcoes => opcoes.UseSqlServer(Configuration.GetConnectionString("ConexaoDB")));
+            services.AddIdentity<Usuario, Funcao>().AddEntityFrameworkStores<Contexto>();
+
+            services.AddAuthentication();
+            services.AddAuthorization();
+
+            services.AddTransient<IUsuarioRepositorio, UsuarioRepositorio>();
 
             services.AddControllersWithViews();
         }
@@ -48,6 +57,7 @@ namespace GerenciadorCondominios
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
