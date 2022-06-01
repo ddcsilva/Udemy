@@ -1,0 +1,16 @@
+C:\Projetos\Udemy\CSharp - Nelio Alves\Seção 4\Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO\bin\Debug\net5.0\Aula02ResolvendoProblemaComOO.exe
+C:\Projetos\Udemy\CSharp - Nelio Alves\Seção 4\Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO\bin\Debug\net5.0\Aula02ResolvendoProblemaComOO.deps.json
+C:\Projetos\Udemy\CSharp - Nelio Alves\Seção 4\Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO\bin\Debug\net5.0\Aula02ResolvendoProblemaComOO.runtimeconfig.json
+C:\Projetos\Udemy\CSharp - Nelio Alves\Seção 4\Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO\bin\Debug\net5.0\Aula02ResolvendoProblemaComOO.runtimeconfig.dev.json
+C:\Projetos\Udemy\CSharp - Nelio Alves\Seção 4\Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO\bin\Debug\net5.0\Aula02ResolvendoProblemaComOO.dll
+C:\Projetos\Udemy\CSharp - Nelio Alves\Seção 4\Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO\bin\Debug\net5.0\Aula02ResolvendoProblemaComOO.pdb
+C:\Projetos\Udemy\CSharp - Nelio Alves\Seção 4\Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO\obj\Debug\net5.0\Aula02ResolvendoProblemaComOO.csproj.AssemblyReference.cache
+C:\Projetos\Udemy\CSharp - Nelio Alves\Seção 4\Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO\obj\Debug\net5.0\Aula02ResolvendoProblemaComOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Udemy\CSharp - Nelio Alves\Seção 4\Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO\obj\Debug\net5.0\Aula02ResolvendoProblemaComOO.AssemblyInfoInputs.cache
+C:\Projetos\Udemy\CSharp - Nelio Alves\Seção 4\Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO\obj\Debug\net5.0\Aula02ResolvendoProblemaComOO.AssemblyInfo.cs
+C:\Projetos\Udemy\CSharp - Nelio Alves\Seção 4\Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO\obj\Debug\net5.0\Aula02ResolvendoProblemaComOO.csproj.CoreCompileInputs.cache
+C:\Projetos\Udemy\CSharp - Nelio Alves\Seção 4\Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO\obj\Debug\net5.0\Aula02ResolvendoProblemaComOO.dll
+C:\Projetos\Udemy\CSharp - Nelio Alves\Seção 4\Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO\obj\Debug\net5.0\refint\Aula02ResolvendoProblemaComOO.dll
+C:\Projetos\Udemy\CSharp - Nelio Alves\Seção 4\Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO\obj\Debug\net5.0\Aula02ResolvendoProblemaComOO.pdb
+C:\Projetos\Udemy\CSharp - Nelio Alves\Seção 4\Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO\obj\Debug\net5.0\Aula02ResolvendoProblemaComOO.genruntimeconfig.cache
+C:\Projetos\Udemy\CSharp - Nelio Alves\Seção 4\Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO\obj\Debug\net5.0\ref\Aula02ResolvendoProblemaComOO.dll
