@@ -7,19 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula01ResolvendoProblemaSem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula02ResolvendoProblemaComOO", "Aula02ResolvendoProblemaComOO\Aula02ResolvendoProblemaComOO.csproj", "{3949058B-671A-4F06-B992-A7F257647924}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio01", "Exercicio01\Exercicio01.csproj", "{0CEDFB80-7728-426C-9CD1-152AF906BDF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio01", "Exercicio01\Exercicio01.csproj", "{0CEDFB80-7728-426C-9CD1-152AF906BDF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio02", "Exercicio02\Exercicio02.csproj", "{AA37E62E-0CD4-4FF8-9E2B-0ABB8E2D82EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio02", "Exercicio02\Exercicio02.csproj", "{AA37E62E-0CD4-4FF8-9E2B-0ABB8E2D82EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula03CriandoMetodos", "Aula03CriandoMetodos\Aula03CriandoMetodos.csproj", "{14287DEE-5E3E-4F1C-83AA-F04982268803}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula03CriandoMetodos", "Aula03CriandoMetodos\Aula03CriandoMetodos.csproj", "{14287DEE-5E3E-4F1C-83AA-F04982268803}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula04SistemaEstoqueSimplesOO", "Aula04SistemaEstoqueSimplesOO\Aula04SistemaEstoqueSimplesOO.csproj", "{3E85B90C-107D-4041-A450-3B1D4CE468C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula04SistemaEstoqueSimplesOO", "Aula04SistemaEstoqueSimplesOO\Aula04SistemaEstoqueSimplesOO.csproj", "{3E85B90C-107D-4041-A450-3B1D4CE468C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio03", "Exercicio03\Exercicio03.csproj", "{6D53A70D-F3EE-4AD9-B64B-A5E5ED124090}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio03", "Exercicio03\Exercicio03.csproj", "{6D53A70D-F3EE-4AD9-B64B-A5E5ED124090}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio04", "Exercicio04\Exercicio04.csproj", "{2ABE6685-8F13-42FD-B0B5-02BD00C70972}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio04", "Exercicio04\Exercicio04.csproj", "{2ABE6685-8F13-42FD-B0B5-02BD00C70972}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio05", "Exercicio05\Exercicio05.csproj", "{37590A01-5485-4B94-BEC2-E9914D96E9CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio05", "Exercicio05\Exercicio05.csproj", "{37590A01-5485-4B94-BEC2-E9914D96E9CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula05CircunferenciaVolume01", "Aula05CircunferenciaVolume01\Aula05CircunferenciaVolume01.csproj", "{488A5B4E-1C9A-4439-88B2-70A953445DB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{37590A01-5485-4B94-BEC2-E9914D96E9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37590A01-5485-4B94-BEC2-E9914D96E9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37590A01-5485-4B94-BEC2-E9914D96E9CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{488A5B4E-1C9A-4439-88B2-70A953445DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488A5B4E-1C9A-4439-88B2-70A953445DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488A5B4E-1C9A-4439-88B2-70A953445DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488A5B4E-1C9A-4439-88B2-70A953445DB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
