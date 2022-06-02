@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercicio05", "Exercicio05\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula05CircunferenciaVolume01", "Aula05CircunferenciaVolume01\Aula05CircunferenciaVolume01.csproj", "{488A5B4E-1C9A-4439-88B2-70A953445DB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula06CircunferenciaVolume02", "Aula06CircunferenciaVolume02\Aula06CircunferenciaVolume02.csproj", "{EA3B07C4-1F2C-4F06-95D9-2EF1811AC04B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula06CircunferenciaVolume03", "Aula06CircunferenciaVolume03\Aula06CircunferenciaVolume03.csproj", "{628DCBA3-260B-48F6-BF38-44631FB137DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{488A5B4E-1C9A-4439-88B2-70A953445DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{488A5B4E-1C9A-4439-88B2-70A953445DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{488A5B4E-1C9A-4439-88B2-70A953445DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA3B07C4-1F2C-4F06-95D9-2EF1811AC04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3B07C4-1F2C-4F06-95D9-2EF1811AC04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3B07C4-1F2C-4F06-95D9-2EF1811AC04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3B07C4-1F2C-4F06-95D9-2EF1811AC04B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628DCBA3-260B-48F6-BF38-44631FB137DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628DCBA3-260B-48F6-BF38-44631FB137DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628DCBA3-260B-48F6-BF38-44631FB137DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628DCBA3-260B-48F6-BF38-44631FB137DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
