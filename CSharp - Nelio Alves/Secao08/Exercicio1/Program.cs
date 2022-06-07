@@ -47,7 +47,7 @@ namespace Exercicio1
             int year = int.Parse(monthAndYear.Substring(3));
             Console.WriteLine($"Nome: {worker.Name}");
             Console.WriteLine($"Departament: {worker.Departament.Name}");
-            Console.WriteLine($"Income for {monthAndYear}: {worker.Income(year, month).ToString("F2", CultureInfo.InvariantCulture)}");
+            Console.WriteLine($"Renda de {monthAndYear}: {worker.Income(year, month).ToString("F2", CultureInfo.InvariantCulture)}");
         }
     }
 }
