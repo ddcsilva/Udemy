@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula01Heranca", "Aula01Heranca\Aula01Heranca.csproj", "{41453954-7B1D-4A44-BE2B-7620B2E4BEE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula02UpcastingDowncasting", "Aula02UpcastingDowncasting\Aula02UpcastingDowncasting.csproj", "{0A016951-8706-4594-91A0-184F6A2A2412}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{41453954-7B1D-4A44-BE2B-7620B2E4BEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41453954-7B1D-4A44-BE2B-7620B2E4BEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41453954-7B1D-4A44-BE2B-7620B2E4BEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A016951-8706-4594-91A0-184F6A2A2412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A016951-8706-4594-91A0-184F6A2A2412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A016951-8706-4594-91A0-184F6A2A2412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A016951-8706-4594-91A0-184F6A2A2412}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
