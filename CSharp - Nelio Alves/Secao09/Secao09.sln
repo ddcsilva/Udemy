@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula01Heranca", "Aula01Heranca\Aula01Heranca.csproj", "{41453954-7B1D-4A44-BE2B-7620B2E4BEE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula01Heranca", "Aula01Heranca\Aula01Heranca.csproj", "{41453954-7B1D-4A44-BE2B-7620B2E4BEE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula02UpcastingDowncasting", "Aula02UpcastingDowncasting\Aula02UpcastingDowncasting.csproj", "{0A016951-8706-4594-91A0-184F6A2A2412}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula02UpcastingDowncasting", "Aula02UpcastingDowncasting\Aula02UpcastingDowncasting.csproj", "{0A016951-8706-4594-91A0-184F6A2A2412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula03SobreposicaoVirtualOverrideBase", "Aula03SobreposicaoVirtualOverrideBase\Aula03SobreposicaoVirtualOverrideBase.csproj", "{ADB9EAA4-644A-4546-93DE-6123D205C08E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0A016951-8706-4594-91A0-184F6A2A2412}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A016951-8706-4594-91A0-184F6A2A2412}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A016951-8706-4594-91A0-184F6A2A2412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB9EAA4-644A-4546-93DE-6123D205C08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB9EAA4-644A-4546-93DE-6123D205C08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB9EAA4-644A-4546-93DE-6123D205C08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB9EAA4-644A-4546-93DE-6123D205C08E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
